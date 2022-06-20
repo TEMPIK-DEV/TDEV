@@ -103,7 +103,8 @@ def banner():
               '----"----'
               
               🤖 𝐃𝐈𝐆𝐈𝐓𝐀𝐋 𝐀𝐋𝐋𝐈𝐀𝐍𝐂𝐄 𝐓𝐎𝐎𝐋𝐒 🤖'
-        𝐀𝐔𝐓𝐇𝐎𝐑    :  𝐓𝐞𝐦𝐩𝐢𝐤-𝐗𝐃 \nWHATSAPP  :  0𝟪𝟧𝟪𝟪𝟪𝟤𝟤𝟤𝟫𝟦𝟦'
+                𝐀𝐔𝐓𝐇𝐎𝐑    :  𝐓𝐞𝐦𝐩𝐢𝐤-𝐗𝐃 
+               WHATSAPP  :  0𝟪𝟧𝟪𝟪𝟪𝟤𝟤𝟤𝟫𝟦𝟦'
 [/cyan]
 """
 	sol().print(nel(au,style='',title='SELAMAT DATANG'))
