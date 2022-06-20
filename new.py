@@ -102,7 +102,8 @@ def banner():
       |       |            | By Digital Alliance
               '----"----'
               
-              
+              🤖 𝐃𝐈𝐆𝐈𝐓𝐀𝐋 𝐀𝐋𝐋𝐈𝐀𝐍𝐂𝐄 𝐓𝐎𝐎𝐋𝐒 🤖'
+        𝐀𝐔𝐓𝐇𝐎𝐑    :  𝐓𝐞𝐦𝐩𝐢𝐤-𝐗𝐃 \nWHATSAPP  :  0𝟪𝟧𝟪𝟪𝟪𝟤𝟤𝟤𝟫𝟦𝟦'
 [/cyan]
 """
 	sol().print(nel(au,style='',title='SELAMAT DATANG'))
@@ -198,8 +199,8 @@ def login():
 		wel = '# Gunakan username dan password instagram untuk login. sebelum login pastikan akun bersifat publik bukan privat'
 		wel2 = mark(wel, style='red')
 		sol().print(wel2)
-		us=input(f"{N}🐷 Masukan username: {N}")
-		pw=stdiomask.getpass(prompt=f'{N}🐷 Masukan password: {N}')
+		us=input(f"{N}[🐷]Masukan username: {N}")
+		pw=stdiomask.getpass(prompt=f'{N}[🐷] Masukan password: {N}')
 	except KeyboardInterrupt:
 		wel = '# KeyboardInterrupt terdeteksi... keluar !'
 		wel2 = mark(wel, style='red')
@@ -396,7 +397,7 @@ class instagram:
 
 
 	def BUG(self):
-		bug=f'🐷 Bantu saya mengembangkan script ini. apapun bugnya tolong laporkan kepada saya, semakin dikit bugnya semakin baik scriptnya.\n🐷 Anda bisa melaporkan langsung ke wa admin +230 5297 0037\n🐷  𝐸𝑋𝑃𝐿𝑂𝐼𝐷-𝑁𝐼𝑇𝐶𝐻'
+		bug=f'[🐷] Bantu saya mengembangkan script ini. apapun bugnya tolong laporkan kepada saya, semakin dikit bugnya semakin baik scriptnya.\n[🐷] Anda bisa melaporkan langsung ke wa admin +230 5297 0037\n[🐷]  TEMPIK-XD'
 		bug1 = nel(bug, style='cyan')
 		cetak(nel(bug1, title='REPORT BUG'))
 		exit()
@@ -524,7 +525,7 @@ class instagram:
 		else:lisensi()
 
 	def passwordAPI(self,xnx):
-		idtar=f' 🐷 TOTAL ID  : [cyan]{len(internal)} [/cyan]'
+		idtar=f' [🐷] TOTAL ID  : [cyan]{len(internal)} [/cyan]'
 		idtar1=nel(idtar,style='')
 		sol().print(idtar1)
 		komb='[1]FirstName 123+1234+12345+123456\n[2] FirstName+FullName 123+1234\n[3] FirstName+FullName 123+1234+12345+123456\n[4] Password Manual'
@@ -590,7 +591,7 @@ class instagram:
 				except:
 					pass
 		print('\n')
-		oi='# 𝘾𝙍𝘼𝘾𝙆 𝙎𝙀𝙇𝙀𝙎𝘼𝙄'
+		oi='# ✮  🎀  𝘾𝙍𝘼𝘾𝙆 𝙎𝙀𝙇𝙀𝙎𝘼𝙄  🎀  ✮'
 		io=mark(oi,style='yellow')
 		sol().print(io)
 		exit()
@@ -611,7 +612,7 @@ class instagram:
 	def crackAPI(self,user,pas):
 		global loop,success,checkpoint
 		warna = random.choice([M, H, K, U, O,])
-		sys.stdout.write(f"\r{CY}🐷 [{K}{loop}/{len(internal)}{C}] {H} OK : - {len(success)}{C}  {K} CP : - {len(checkpoint)}{C} "),sys.stdout.flush()
+		sys.stdout.write(f"\r{CY}[🐷] [{K}{loop}/{len(internal)}{C}] {H} OK : - {len(success)}{C}  {K} CP : - {len(checkpoint)}{C} "),sys.stdout.flush()
 		try:
 			for pw in pas:
 				ts = calendar.timegm(current_GMT)
@@ -781,7 +782,7 @@ class instagram:
 
 	def menu(self):
 		self.logo()
-		c=input(f'  {N}🐷 Pilih :{C}  ')
+		c=input(f'  {N}[🐷] Pilih :{C}  ')
 		if c=='':
 			self.menu()
 		elif c in ('1','01'):
@@ -792,12 +793,12 @@ class instagram:
 			mas1=nel(mas,style='')
 			sol().print(mas1)
 			m=int(input(f'\n{N}[🐷] Jumlah : {C}'));print('')
-			mas='🐷 Masukan nama random untuk di searching'
+			mas='[🐷] Masukan nama random untuk di searching'
 			mas1=nel(mas,style='')
 			sol().print(mas1)
 			for i in range(m):
 				i+1
-				nama=input(f'{N} 🐷 Masukan nama ({H}{len(internal)}{C}): ')
+				nama=input(f'{N} [🐷] Masukan nama ({H}{len(internal)}{C}): ')
 				name=self.searchAPI(self.cookie,nama)
 			self.passwordAPI(name)
 
@@ -904,7 +905,7 @@ def tlisensi():
 	wel2 = nel(wel, style='')
 	sol().print(wel2)
 	time.sleep(2)
-	lisen=input('  🐷 Enter License : ')
+	lisen=input('  [🐷] Enter License : ')
 	if lisen in ['buy']:
 		os.system('xdg-open https://wa.me/+6285888222944?text=Bang+Mau+Beli+Licensinya+Dong')
 	open('.lisen.txt','w').write(lisen)
@@ -995,7 +996,7 @@ def massal(self):
 			mas='[!] Target harus bersifat publik jangan privat'
 			mas1=nel(mas,style='')
 			sol().print(mas1)
-			m=input(f'  {N}🐷 Username target : {C}')
+			m=input(f'  {N}[🐷] Username target : {C}')
 			pr=f' Sedang Mengumpulkan ID : [red]{m}[/red]'
 			so=nel(pr,style="")
 			sol().print(so)
@@ -1019,7 +1020,7 @@ def register_device():
 				time.sleep(1.5)
 				login_kamu()
 			else:
-				print(f"🐷 {M}Key anda belum di konfirmasi\n{N}🐷 {M}Silahkan Beli Ke Wa +6285888222944")
+				print(f"[🐷] {M}Key anda belum di konfirmasi\n{N}[🐷] {M}Silahkan Beli Ke Wa +6285888222944")
 				os.system('xdg-open http://wa.me/+6285888222944')
 
 		if not os.path.exists("/data/data/com.termux/files/usr/etc/.license"):
